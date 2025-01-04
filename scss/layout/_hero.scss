@@ -1,0 +1,23 @@
+@use '../util' as u;
+
+.qr {
+    background-color: var(--c-qr);
+    border-radius: 20px;
+    padding: u.rem(16) u.rem(16) u.rem(39) u.rem(16);
+
+    &__img {
+        border-radius: 10px;
+    }
+
+    &__headline {
+        color: var(--c-headline);
+        padding-top: u.rem(25);
+    }
+
+    &__description {
+        max-width: u.rem(256);
+        color: var(--c-text);
+        margin: 0 auto;
+        padding-top: u.rem(16);
+    }
+}
